@@ -1,0 +1,77 @@
+## Dados brutos e processados
+#data/raw/
+#data/processed/
+
+## Modelos treinados e checkpoints
+#models/
+#*.h5
+#*.pkl
+
+## Resultados e gráficos gerados
+#results/*.png
+#results/*.txt
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos do ambiente virtual (caso use um)
+.venv/
+venv/
+.env/
+
+# Configurações e logs do Jupyter
+.jupyter/
+.local/
+.history
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.out
+
+# Arquivos de saída indesejados
+*.DS_Store
+*.swp
+*.swo
+
+# IDEs e editores de código
+
+## VSCode
+.vscode/
+*.code-workspace
+
+## PyCharm
+.idea/
+*.iml
+
+## Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+## JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## Visual Studio
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+## NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
